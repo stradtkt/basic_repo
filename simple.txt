@@ -1,0 +1,12 @@
+cd Desktop
+md basic_repo
+git init 
+copy NUL index.html
+copy NUL app.js
+copy NUL styles.css
+code . (added changes to the index.html file)
+git status
+git add *
+git commit -m "Initial Commit"
+git remote add origin https://github.com/stradtkt/basic_repo.git
+git push -u origin master
